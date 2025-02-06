@@ -1,8 +1,5 @@
 import Balancer from "react-wrap-balancer"
 import Link from "next/link"
-
-import { Icons } from "@/icons"
-
 import { Badge, Button } from "@/ui"
 
 export default function Home() {
@@ -21,9 +18,14 @@ export default function Home() {
 				</p>
 
 				<nav className="flex items-center gap-4 py-4">
-					<Link href="/dashboard">
+					<Link href="/login">
 						<Button size="sm" className="text-sm">
-							<span>Get Started</span>
+							<span>Login</span>
+						</Button>
+					</Link>
+					<Link href="/register">
+						<Button size="sm" className="text-sm">
+							<span>Register</span>
 						</Button>
 					</Link>
 				</nav>

@@ -22,8 +22,8 @@ const config = {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",
-				background: "#fff799", // Darker Yellow Background
-				foreground: "#33cc33", // Green Text
+				background: "#ffffe0", // Super Pale Yellow Background
+				foreground: "#008040", // Green Text updated to #008040
 				primary: {
 					DEFAULT: "#ff66b2", // Pink
 					foreground: "#ffffff"
@@ -38,7 +38,7 @@ const config = {
 				},
 				muted: {
 					DEFAULT: "hsl(var(--muted))",
-					foreground: "#33cc33" // Green muted text
+					foreground: "#008040" // Updated muted text green to #008040
 				},
 				accent: {
 					DEFAULT: "#ff66b2", // Pink Accent
@@ -46,11 +46,11 @@ const config = {
 				},
 				popover: {
 					DEFAULT: "hsl(var(--popover))",
-					foreground: "#33cc33" // Green text in popovers
+					foreground: "#008040" // Updated popover text green to #008040
 				},
 				card: {
 					DEFAULT: "hsl(var(--card))",
-					foreground: "#33cc33" // Green text in cards
+					foreground: "#008040" // Updated card text green to #008040
 				}
 			},
 			borderRadius: {
