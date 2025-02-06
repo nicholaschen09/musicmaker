@@ -2,12 +2,11 @@
 
 import Link from "next/link"
 import { Icons } from "@/icons"
-import { siteConfig } from "@/config"
 
 export function Social() {
 	return (
 		<Link
-			href={siteConfig.links.github}
+			href="https://github.com/nicholaschen09/musicmaker"
 			rel="noopener noreferrer"
 			target="_blank"
 		>
