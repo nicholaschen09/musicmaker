@@ -70,6 +70,12 @@ export default function Register() {
         >
           Register
         </button>
+        <div className="mt-4 text-center">
+          <span>Already have an account? </span>
+          <Link href="/login" className="font-bold text-blue-500 underline hover:bg-green-500 hover:text-white px-2 py-1 rounded">
+            Login
+          </Link>
+        </div>
       </form>
     </div>
   )
